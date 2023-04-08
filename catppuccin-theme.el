@@ -337,7 +337,7 @@ Must be one of `mocha`, `macchiato`, `frappe`, or `latte`."
 
                ;; syntax / font-lock
                (font-lock-builtin-face :foreground ,ctp-lavender)
-               (font-lock-comment-face :inherit shadow)
+               (font-lock-comment-face :foreground ,ctp-sapphire)
                (font-lock-comment-delimiter-face :inherit shadow)
                (font-lock-constant-face :foreground ,ctp-peach)
                (font-lock-doc-face :inherit font-lock-comment-face)
